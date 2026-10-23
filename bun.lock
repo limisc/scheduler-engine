@@ -5,6 +5,7 @@
     "": {
       "name": "@limisc/scheduler-engine",
       "dependencies": {
+        "@types/luxon": "^3.7.6",
         "luxon": "^3.7.2",
         "p-limit": "^7.3.3",
         "zod": "^4.6.7",
@@ -12,7 +13,6 @@
       "devDependencies": {
         "@biomejs/biome": "^2.5.15",
         "@types/bun": "latest",
-        "@types/luxon": "^3.7.6",
         "typescript": "^7.0.2",
       },
     },

@@ -1,6 +1,6 @@
 {
   "name": "@limisc/scheduler-engine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Personal durable scheduler engine: Postgres-backed flows, steps and provider clients for Bun",
   "license": "MIT",
   "type": "module",
@@ -21,6 +21,7 @@
     "test": "bun test"
   },
   "dependencies": {
+    "@types/luxon": "^3.7.6",
     "luxon": "^3.7.2",
     "p-limit": "^7.3.3",
     "zod": "^4.6.7"
@@ -28,7 +29,6 @@
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",
     "@types/bun": "latest",
-    "@types/luxon": "^3.7.6",
     "typescript": "^7.0.2"
   }
 }
